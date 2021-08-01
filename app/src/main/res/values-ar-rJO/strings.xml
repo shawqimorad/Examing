@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examing</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="forget_password">نسيت كلمة السر؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">التسجبل</string>
+    <string name="description">أفضل تطبيق <br/>لأخذ الإختبارات</string>
+</resources>

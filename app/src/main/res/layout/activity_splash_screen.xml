@@ -48,6 +48,7 @@
             android:layout_marginTop="@dimen/_30sdp"
             android:fontFamily="@font/cormorant_unicase_semi_bold"
             android:letterSpacing="0.1"
+            android:lineSpacingExtra="@dimen/_10sdp"
             android:text="@string/description"
             android:textAllCaps="true"
             android:textColor="@color/desc_color"

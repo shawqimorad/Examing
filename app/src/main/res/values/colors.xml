@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="hint_field">#616060</color>
+    <color name="hint_icon">#121111</color>
+    <color name="background_textbox">#D9E9F9</color>
+    <color name="login_button">#053D71</color>
+    <color name="register_button">#DD4732</color>
+    <color name="desc_color">#161E4D</color>
 </resources>

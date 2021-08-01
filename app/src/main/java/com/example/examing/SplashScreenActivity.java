@@ -3,7 +3,9 @@ package com.example.examing;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
@@ -29,5 +31,13 @@ public class SplashScreenActivity extends AppCompatActivity {
         animation = AnimationUtils.loadAnimation(this,R.anim.fade_in);
         binding.login.setAnimation(animation);
         binding.register.setAnimation(animation);
+
+        binding.login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SplashScreenActivity.this,LoginScreenActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

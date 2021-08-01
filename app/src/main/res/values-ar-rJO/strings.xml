@@ -7,4 +7,6 @@
     <string name="login">تسجيل الدخول</string>
     <string name="register">التسجبل</string>
     <string name="description">أفضل تطبيق <br/>لأخذ الإختبارات</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
 </resources>
